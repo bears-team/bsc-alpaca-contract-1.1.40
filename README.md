@@ -1,2 +1,7 @@
-# bsc-alpaca-contract-1.1.40
-The first release of Alpaca Finance(bsc-alpaca-contract-1.1.40)
+# Alpaca Contract
+
+**Leveraged yield farming on Binance Smart Chain**
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT)
