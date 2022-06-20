@@ -20,19 +20,19 @@ module.exports = {
       accounts: [
         {
           privateKey: process.env.LOCAL_PRIVATE_KEY_1,
-          balance: '10000000000000000000000',
+          balance: '10000000000000000000000000',
         },
         {
           privateKey: process.env.LOCAL_PRIVATE_KEY_2,
-          balance: '10000000000000000000000',
+          balance: '10000000000000000000000000',
         },
         {
           privateKey: process.env.LOCAL_PRIVATE_KEY_3,
-          balance: '10000000000000000000000',
+          balance: '10000000000000000000000000',
         },
         {
           privateKey: process.env.LOCAL_PRIVATE_KEY_4,
-          balance: '10000000000000000000000',
+          balance: '10000000000000000000000000',
         },
       ],
     },
@@ -43,6 +43,10 @@ module.exports = {
     mainnet: {
       url: 'https://bsc-dataseed3.ninicoin.io',
       accounts: [process.env.BSC_MAINNET_PRIVATE_KEY],
+    },
+    mainnetfork: {
+      url: process.env.FORK_RPC,
+      accounts: [process.env.FUNDED_PRIVATE_KEY, process.env.BSC_MAINNET_PRIVATE_KEY, process.env.QA_PRIVATE_KEY],
     },
   },
   namedAccounts: {
